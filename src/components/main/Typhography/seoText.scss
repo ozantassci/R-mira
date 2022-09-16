@@ -1,0 +1,50 @@
+.text-container {
+    background-color: #192838f5 !important;
+    max-width:100% ;
+    .paragraph-container {
+        p {
+        width: 40%;
+        color: #fff;
+            b {
+                color: #ff4e00;
+            }
+        }
+    }
+    
+}
+
+@media  screen and (max-width: 1100px) {
+    .text-container {
+        .paragraph-container {
+            p {
+                
+                width: 50%;
+            }
+        }
+    } 
+}
+@media  screen and (max-width: 900px) {
+    .text-container {
+        .paragraph-container {
+            p {
+                
+                width: 70%;
+            }
+        }
+    } 
+}
+
+
+@media  screen and (max-width: 600px) {
+    .text-container {
+        .paragraph-container {
+            p {
+                
+                width: 90%;
+            }
+        }
+    } 
+}
+
+
+

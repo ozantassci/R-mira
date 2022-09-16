@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=Poppins:wght@300;400;500;600&display=swap");
+
+:root {
+  
+  --colorBackground: #f0f1f3;
+  --colorMain: #d0c9c0;
+  --colorTextHeader: #5f697d;
+  --colorTextContent: #6d8b74;
+  --colorToggle: #ff9551;
+  --colorBorder: #ff9551;
+  --colorLogo: #ff9551;
+  --colorFooter: #183153;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fff;
+  
+}

@@ -1,0 +1,41 @@
+.footer {
+  background-color: #171a1e !important;
+  font-weight: 300;
+  font-size: 17px;
+
+  .contact-wrapper {
+    a {
+      color: #fff;
+    }
+  }
+  .text-wrapper {
+    h5 {
+      letter-spacing: 1px;
+      color: #ff4e00;
+    }
+    a {
+      text-decoration: none;
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+    svg {
+      fill: #ff4e00;
+    }
+    img {
+      width: 150px;
+      margin: 10px;
+    }
+  }
+  .icon-wrapper {
+    a {
+      .icon-social {
+        fill: #ff4e00;
+
+        &:hover {
+          opacity: 0.6;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+.navbar-collapse {
+    a {
+        text-decoration: none;
+        display: block;
+        text-align: center;
+        letter-spacing: 1px;
+        font-size: 14px;
+        transition: all 0.3s;
+
+        &:hover {
+            color: #FF4E00 !important;
+            border-bottom: 2px solid #C55001;
+            padding-bottom: 5px;
+
+        }
+    }
+}
+
+.custom-toggler {
+    color: #FF4E00;
+    outline: none;
+    border: none;
+    box-shadow: none;
+    transition: all 0.4s;
+    &:hover {
+        scale: 1.2;
+    }
+}
+.logo-item {
+    filter: saturate(35);
+}
